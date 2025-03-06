@@ -46,7 +46,7 @@ This setup creates a DOM structure that looks like this:
 </div>
 ```
 
-Those nested `div`s don't have any purpose here and don't have any styling
+Those nested `div`s don't have purpose here and don't have any styling
 besides their default properties. Without them though, we would have an error as
 there are _two_ `p` tags being returned in the `ChildComponent`. Instead, we
 could use React Fragments, preventing the extra `div`s from being added to the
